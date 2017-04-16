@@ -6,6 +6,40 @@
 if($_POST["Waist"] > "36" or $_POST["Bust"] > "44" or $_POST["Hips"] > 44)
 {
 	echo "Your Body Shape is Heavy";	
+	?>
+<br> 
+<br>
+
+<img src="womanOval.jpg"><br><br><br><br><br><br><br>
+<h2> Tops for you</h2>
+<a target="_blank" href="http://www.faballey.com/belted-lace-peplum-top-blush-54?utm_source=Google&utm_medium=CPC&utm_term=General&utm_content=None&utm_campaign=PLA_Tops&gclid=Cj0KEQjwicfHBRCh6KaMp4-asKgBEiQA8GH2x86Obj8MMUbHvg3olg0LanMQvABVjclWvemKBCyJp9oaAv7X8P8HAQ">
+<img src="img101.jpg"></a><br><br>
+<b> 1.) Square or scoop neck button downs.<br><br><br><br>
+<a target="_blank" href="https://www.amazon.com/s/ref=sr_blf_1_18?fst=fsl%3AHaola&rh=i%3Afashion-womens-clothing%2Cn%3A2368343011%2Cp_n_size_browse-vebin%3A2343351011%2Cp_89%3AHaola&ie=UTF8&qid=1492305235">
+<img src="img102.jpg"></a>
+<br><br>
+<b> 2.) Tops with belted waists.<br><br><br><br>
+<a target="_blank" href="https://www.aliexpress.com/item/Plus-Size-Simple-Flutter-Sleeve-Wrap-Crop-Top-Sexy-V-Neckline-Casual-Fit-Women-Beach-Top/32786927202.html?spm=2114.01010208.3.23.H7WpZb&ws_ab_test=searchweb0_0,searchweb201602_5_10152_10065_10151_10068_5090016_10084_10083_10080_10082_10081_10110_10136_10137_10175_10111_10060_10138_10112_10113_10062_10156_10114_10056_10055_10054_10059_10099_10078_10079_10103_10073_10102_10096_10070_10148_10123_10147_10052_10053_10124_10142_10107_10050_10143_10051,searchweb201603_1,afswitch_1,ppcSwitch_5&btsid=dae265b7-714e-48f8-a984-b8ed0502f1ff&algo_expid=53d2c174-fe35-4d42-9b23-5eb5a20b947b-2&algo_pvid=53d2c174-fe35-4d42-9b23-5eb5a20b947b">
+<img src="img103.jpg"></a><br><br>
+<b> 3.) Tailored tunic type tops.<br><br><br><br>
+<a target="_blank" href="https://www.aliexpress.com/item/Flutter-Sleeves-Chiffon-Top-For-Women-Spring-Summer-2017-New-Fashion-Solid-Color-Loose-Office-Lady/32807291468.html?spm=2114.01010208.3.32.H7WpZb&ws_ab_test=searchweb0_0,searchweb201602_5_10152_10065_10151_10068_5090016_10084_10083_10080_10082_10081_10110_10136_10137_10175_10111_10060_10138_10112_10113_10062_10156_10114_10056_10055_10054_10059_10099_10078_10079_10103_10073_10102_10096_10070_10148_10123_10147_10052_10053_10124_10142_10107_10050_10143_10051,searchweb201603_1,afswitch_1,ppcSwitch_5&btsid=dae265b7-714e-48f8-a984-b8ed0502f1ff&algo_expid=53d2c174-fe35-4d42-9b23-5eb5a20b947b-3&algo_pvid=53d2c174-fe35-4d42-9b23-5eb5a20b947b">
+<img src="img104.jpg"></a>
+<br><br>
+<b> 4.) Wrap Tops.<br><br><br><br>
+
+<br><br><br><br><br>
+<h2> Bottoms for you </h2>
+<a target="_blank" href="http://www.jabong.com/next-Olive-Patch-Wide-Leg-Trousers-2856259.html?pos=5">
+<img src="img201.jpg"></a><br><br>
+<b> 1.) Wide leg jeans or Cargo pants.<br><br><br><br>
+<a target="_blank" href="https://www.shopstyle.com/action/loadRetailerProductPage?device=desktop&&extra=%7B%22page.name%22:%22browse+products%22,%22page.fromUrl%22:%22%252Fbrowse%253Ffts%253Dfront%252Bflap%252Bpocket%252Bjeans%22%7D&id=632195088&project=ng2.28:true&&version=ng2.28:true">
+<img src="img202.jpg"></a><br><br>
+<b> 2.) Wide leg flowing pants.<br><br><br><br>
+<a target="_blank" href="http://www.ebay.com/itm/Fashion-Women-Girl-Chiffon-Pleated-Retro-Elastic-Waist-Short-Mini-Skirt-Dress-/311329149964?var=&hash=item487ca9d40c%3Am%3AmXcOi39glRrD-rzq_j2IZkg">
+<img src="img203.jpg"></a><br><br>
+<b> 3.) Fuller flowing skirts.<br><br><br><br>
+
+<?php
 } 
 else if($_POST["Bust"] <= $_POST["Waist"]+2 and $_POST["Bust"] >= $_POST["Waist"]-2 )
 {
@@ -121,7 +155,6 @@ else if($_POST["Hips"] > $_POST["Bust"]+3 )
 <a target="_blank" href="http://www.amazon.in/Skirts-Scarves-Palazzo-Painted-Elephant/dp/B013WX2HZW/ref=sr_1_5?ie=UTF8&qid=1492310213&sr=8-5&keywords=slacks+for+women">
 <img src="img73.jpg"></a><br><br>
 <b> 3.) Simple, dark colored slacks<br><br><br><br>
-
 <?php
 }
 else
@@ -158,11 +191,8 @@ else
 <img src="img53.jpg"></a><br><br>
 <b> 3.) Boot cut & straight leg pants.
 <br><br><br><br>
-
 <?php
 }
-
-
 ?>
 </center>
 </body>
